@@ -4,6 +4,7 @@ body {
     /* font-family: 'Aboreto', cursive; */
     font-family: 'Poppins', sans-serif;
 }
+
 section {
     background-color: white;
 }
@@ -18,7 +19,7 @@ section {
 nav {
     display: flex;
     justify-content: space-between;
-}   
+}
 
 ul {
     display: flex;
@@ -41,6 +42,7 @@ h1 {
 h2 {
     font-size: 50px;
 }
+
 p {
     margin: 0;
     font-size: 30px;
@@ -51,12 +53,14 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+
 .hero-area {
     display: flex;
     height: 100%;
     justify-content: space-between;
     align-items: center;
 }
+
 .hero-text {
     margin-left: 80px;
     margin-bottom: 200px;
@@ -87,15 +91,16 @@ a {
     padding-bottom: 200px;
 }
 
-.social-icon{
+.social-icon {
     margin: 20px;
 }
-.logo{
+
+.logo {
     height: 100px;
     margin: 20px;
 }
 
-.sub-section{
+.sub-section {
     display: flex;
     justify-content: space-around;
     padding: 80px;
@@ -107,14 +112,17 @@ a {
     text-align: center;
     padding: 80px;
 }
+
 .subtext {
     font-size: 15px;
     font-weight: 300;
 }
+
 .profile-container {
     display: flex;
     align-items: center;
 }
+
 .profile-image {
     border-radius: 75%;
 }
@@ -125,10 +133,10 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-card {
@@ -149,6 +157,7 @@ a {
     decoration: none;
     color: #ef744b;
 }
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
@@ -159,4 +168,22 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 80px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    
+    ul {
+        display: none;
+    }
 }
