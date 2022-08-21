@@ -18,16 +18,16 @@
         <nav>
             <img class="logo" src="/imgs/icon.png" alt="Christopher Lam's portfolio website logo">
             <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Christopher Lam</h1>
                 <p>Junior Full Stack Developer</p>
-                <div class="button">About Me</div>
+                <div class="button"><a href="#about-me">About Me</a></div>
               </div>  
               <div class="socials">
                 <div class="social-icon">
@@ -41,12 +41,71 @@
                 </div>
               </div>
         </div>
-          
+    </section>
+       
+    <section class="sub-section" id="about-me">
+        <div class="information">
+            <h2>About Me</h2>
+            <p>Hello! I'm Christopher Lam. I am a Junior Software Developer with a passion for all things code and Japan.</p>
+            <br>
+            <p>I'm currently learning Full Stack Software Development at the Northcoders Bootcamp and looking for future opportunities!</p>
+        </div>
+        <div class="profile-container">
+            <img class="profile-image" src="./imgs/profile-picture.jpg" alt="A picture of Christopher Lam.">
+        <div>
     </section>
 
-    <section>1</section>
-    <section>2</section>
-    <footer></footer>
+    <section class="sub-section-alt" id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            
+            <div class="project-card">
+                <img class="project-image" src="./imgs/project-one-ejs-blog-website.jpg" alt="Project 1 - Express JS Blog Website.">
+                <h3>Project 1 - Express JS Blog</h3>
+                <p class="subtext">This is a fully functional blog website that was built with Node/Express/EJS.</p>
+                <hr>
+                <a class="project-link" target="_blank" href="https://ejs-blog-clam119.herokuapp.com/"> <p class="subtext">Live View</p> </a>
+                <hr>
+                <a class="project-link" target="_blank" href="https://github.com/clam119/ejs-blog-website-project"> <p class="subtext">Source Code</p> </a>
+            </div>
+                
+            <div class="project-card">
+                <img class="project-image" src="./imgs/project-two-todolist.jpg" alt="Project 2 - To Do List Image.">
+                <h3>Project 2 - To Do List</h3>
+                <p class="subtext">This is a to-do-list built with Vanilla HTML/CSS & Node/Express.</p>
+                <hr>
+                <a class="project-link" target="_blank" href="https://todolist-clam119.herokuapp.com/"> <p class="subtext">Live View</p> </a>
+                <hr>
+                <a class="project-link" target="_blank" href="https://github.com/clam119/todolist-v1"> <p class="subtext">Source Code</p> </a>
+            </div>
+
+            <div class="project-card">
+                <img class="project-image" src="./imgs/project-two-todolist.jpg" alt="Project 3 - ">
+                <h3>Project 3 - </h3>
+                <p class="subtext">This is a to-do-list built with Vanilla HTML/CSS & Node/Express.</p>
+                <hr>
+                <a class="project-link" target="_blank" href="https://todolist-clam119.herokuapp.com/"> <p class="subtext">Live View</p> </a>
+                <hr>
+                <a class="project-link" target="_blank" href="https://github.com/clam119/todolist-v1"> <p class="subtext">Source Code</p> </a>
+            </div>
+
+            <div class="project-card">
+                <img class="project-image" src="./imgs/project-two-todolist.jpg" alt="Project 4 - ">
+                <h3>Project 4 -</h3>
+                <p class="subtext">This is a to-do-list built with Vanilla HTML/CSS & Node/Express.</p>
+                <hr>
+                <a class="project-link" target="_blank" href="https://todolist-clam119.herokuapp.com/"> <p class="subtext">Live View</p> </a>
+                <hr>
+                <a class="project-link" target="_blank" href="https://github.com/clam119/todolist-v1"> <p class="subtext">Source Code</p> </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="contact-me">
+        <h2>Contact Me</h2>
+        <p>Christopher.lam119@gmail.com</p>
+    </footer>
     <script src="./src/app.js"></script>
 </body>
 

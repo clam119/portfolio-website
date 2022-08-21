@@ -5,9 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 section {
-    height: 500px;
     background-color: white;
-    border: solid black 1px;
 }
 
 .hero {
@@ -15,11 +13,6 @@ section {
     height: 100vh;
     color: white;
     font-size: 40px;
-}
-
-footer {
-    height: 500px;
-    background-color: blue;
 }
 
 nav {
@@ -45,12 +38,19 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size: 50px;
+}
 p {
     margin: 0;
     font-size: 30px;
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
 .hero-area {
     display: flex;
     height: 100%;
@@ -95,3 +95,60 @@ p {
     margin: 20px;
 }
 
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+.profile-image {
+    border-radius: 75%;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(204, 202, 202);
+    margin: 10px;
+}
+
+.project-image {
+    margin-top: 25px;
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.project-link {
+    decoration: none;
+    color: #ef744b;
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 80px;
+}
